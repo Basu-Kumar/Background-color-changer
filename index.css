@@ -1,0 +1,45 @@
+h1{
+    color: orangered;
+    text-align: center;
+    text-decoration: underline;
+}
+
+img{
+    height: 400px;
+    width: 70%;
+    margin: 0px 190px;
+}
+
+p{
+    margin: 0px 190px;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.btn{
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border: 2px solid red;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#color-switcher{
+    text-align: right;
+    padding-top: 30px;
+    padding-right: 20px;
+}
+
+#white{
+    background-color: white;
+}
+#violet{
+    background-color: violet;
+}
+#black{
+    background-color: black;
+}
+#gray{
+    background-color: gray;
+}
