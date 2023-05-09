@@ -5,19 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
     <title>BackGround Changer</title>
 </head>
 <body>
     <div id="color-switcher">
-        <span class="btn" id="white"></span>
-        <span class="btn" id="violet"></span>
-        <span class="btn" id="black"></span>
-        <span class="btn" id="gray"></span>
+        <span class="btn" id="white" onclick="changeBG('#ffffff')"></span>
+        <span class="btn" id="violet" onclick="changeBG('#8f00ff')"></span>
+        <span class="btn" id="gray" onclick="changeBG('#808080')"></span>
+        <span class="btn" id="black" onclick="changeBG('#000000')"></span>
     </div>
     <h1>Swami Vivekananda</h1>
     <img src="https://www.vifindia.org/sites/default/files/life-lessons-from-swami-vivekananda-that-will-continue-to-guide-us-980x457-1452585625_1100x513.jpg">
 
-    <p>
+    <p id="text">
     Swami Vivekananda was a highly influential and revered Indian monk and philosopher who played a pivotal role in introducing Hinduism and Indian spirituality to the Western world. Born on January 12, 1863, in Kolkata, India, he was originally named Narendranath Datta.
     Vivekananda's early life was marked by a deep sense of spirituality and a yearning for knowledge. He was greatly influenced by the teachings of his guru, Ramakrishna Paramahansa, who taught him the principle of Advaita Vedanta, which emphasized the oneness of all existence.
     <br> 
